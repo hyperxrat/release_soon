@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    /* #f4f8ff */
+    background-color: white;
+    /* background-image: url('/ITUS/img/main_back13.png'); */
+    background-image: url('space9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.WIZ{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    display: inline-block;
+}
+.get{
+    margin: 20px;
+    float: right;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-right: 30px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.main{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 150px;
+    font-family: 'Jost', sans-serif;
+}
+.main span{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+input[type="email"]{
+    margin-right: -60px;
+    padding: 20px 20px;
+    width: 400px;
+    z-index: -1;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+}
+.sub{
+    padding: 20px 20px;
+    z-index: 1;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #F72A69;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+}
+
+img{
+    width: 23px;
+    margin: 10px 10px 0px 10px;
+    filter: invert();
+}
+.img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
